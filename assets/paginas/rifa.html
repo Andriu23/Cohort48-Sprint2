@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINDY GAMES | Sorteo</title>
+    <link rel="shortcut icon" href="../imagenes/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../../index.html">Home</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./more_information.html">More Information</a>
+            <a href="./benefits_and_tips.html">Benefits and Tips</a>
+            <a href="#">Sorteo</a>
+        </nav>
+        <img src="../imagenes/logo.png" alt="">
+    </header>    
+    <main>
+        <h1>MINDY GAMES</h1>
+        <h2>Sorteo</h2>
+        <div class="Consulta">
+            <div class="location">
+                <p>our location where the tournaments are help is at</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225470.34513306222!2d-82.6190946092812!3d27.994687488058762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20FL%2C%20USA!5e0!3m2!1sen!2sco!4v1684383507625!5m2!1sen!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="formulario">                
+                <form action="../../show_data.html" method="get">
+                    <fieldset>
+                        <div class="Resgistrar">
+                            <div>
+                                <label  for="First">First Name</label>
+                                <input class="control" type="text" name="First Name" id="First">
+                            </div>
+                            <div>
+                                <label for="Last">Last Name</label>
+                                <input class="control" type="text" name="Last Name" id="Last">
+                            </div>
+                            <div>
+                                <label for="Game">Choose Game
+                                    <select class="Fecha" name="Game" id="Game">
+                                        <option value="#">*</option>
+                                        <option value="">Valorant</option>
+                                        <option value="">League of Legends</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div>
+                            <label for="Pago">Choose Date</label>
+                            <input class="Fecha" type="date" name="date" id="Pago">
+                            </div>
+                            Payment Options
+                            <div>
+                                <input class="Pay" type="radio" name="Pay" id="Dinero">
+                                <label for="Dinero">Cash</label>
+                                <input class="Pay" type="radio" name="Pay" id="Credit">
+                                <label for="Credit">Credit Card</label>
+                                <input class="Pay" type="radio" name="Pay" id="Debit">
+                                <label for="Debit">Debit Card</label>
+                            </div>
+                            <div>
+                                <label for="MSN">Message (Optional)</label>
+                                <input class="Massage" type="text" name="Massage" id="MSN">
+                            </div>
+                            <div>
+                                <input class="Button" type="radio" name="SI" id="like">
+                                <label for="like">I accept terms and conditions</label>
+                            </div>
+                            <input type="submit" value="Send">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>Created by: Andres Satoba</footer>  
+</body>
+</html>
